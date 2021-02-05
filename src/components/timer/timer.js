@@ -33,7 +33,7 @@ const getTimeDays = (time) => (time / daySeconds) | 0;
 
 export default function Timers() {
   const startTime = new Date().getTime() / 1000; // use UNIX timestamp in seconds
-  const endTime = new Date('Feb 07 2021 00:00:00 GMT+0100').getTime() / 1000; // use UNIX timestamp in seconds
+  const endTime = new Date('Feb 08 2021 00:00:00 GMT+0100').getTime() / 1000; // use UNIX timestamp in seconds
 
   const remainingTime = endTime - startTime;
   const days = Math.ceil(remainingTime / daySeconds);
